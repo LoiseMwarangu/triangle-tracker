@@ -40,4 +40,14 @@ h1 {
 .button:hover {
   color: 	#428bca;
   background-color: white;
-};
+}
+.display-text {
+
+}
+.type {
+  color: steelblue;
+  text-transform: uppercase;
+}
+.not {
+  color: red;
+}
