@@ -1,9 +1,12 @@
 body {
   text-align: center;
   background: linear-gradient(to right, #0b8793, #360033); 
+  font-family: Text Me One;
+  font-size: 1.1em;
 }
 h1 {
   color: white;
+  font-family: Bungee Shade;
 }
 .form {
   width: 40%;
@@ -12,7 +15,7 @@ h1 {
   text-align: center;
   margin: 0 auto;
   padding: 1%;
-  height: 320px;
+  height: 350px;
 
 }
 #form:hover {
@@ -27,6 +30,9 @@ h1 {
 .input-field label {
   margin-right: 90px;
 }
+.input:active {
+  border-color:  #428bca;
+}
 .button {
   text-align: center;
   font-size: 15px;
@@ -36,6 +42,7 @@ h1 {
   border: 1px solid #428bca;
   color: white;
   outline-style: none;
+  font-family: Text Me One;
 }
 .button:hover {
   color: 	#428bca;
