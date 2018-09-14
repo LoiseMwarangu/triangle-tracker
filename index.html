@@ -11,19 +11,22 @@
 <body>
   <h1>Triangle Tracker</h1>
   <div class="form">
+    <h4>TRACK YOUR TRIANGLE</h4>
+    <p>Enter three sides of a triangle and I will tell you which type of triangle it is</p>
     <div class="input-field">
-      <label for="num1">First Side</label>
+      <label for="num1">Side A</label>
       <input type="text" id="num1" name="num1">
     </div>
     <div class="input-field">
-       <label for="num2">Second Side</label>
-      <input type="text" id="num2" name="num2">
+       <label for="num2">Side B</label>
+        <input type="text" id="num2" name="num2">
     </div>
     <div class="input-field">
-      <label for="num3">Third Side</label>
+      <label for="num3">Side C</label>
       <input type="text" id="num3" name="num3">
     </div>
     <input id="button" type="button" value="Find Out :)" onclick="triangle()">
+    <p id="display"></p>
   </div>
 </body>
 </html>
