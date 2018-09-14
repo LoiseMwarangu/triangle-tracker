@@ -7,11 +7,12 @@ h1 {
 }
 .form {
   width: 40%;
+  border-radius: 10px;
   background: whitesmoke;
   text-align: center;
   margin: 0 auto;
   padding: 1%;
-  height: 60%;
+  height: 320px;
 }
 
 .input-field {
@@ -24,4 +25,15 @@ h1 {
 }
 #button {
   text-align: center;
+  font-size: 15px;
+  padding: 7px;
+  border-radius: 7px;
+  background: #428bca;
+  border: 1px solid #428bca;
+  color: white;
+  outline-style: none;
+}
+#button:hover {
+  color: 	#428bca;
+  background-color: white;
 }
