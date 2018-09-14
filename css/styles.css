@@ -15,7 +15,7 @@ h1 {
   text-align: center;
   margin: 0 auto;
   padding: 1%;
-  height: 350px;
+  height: auto;
 
 }
 
@@ -56,4 +56,19 @@ h1 {
 }
 .not {
   color: red;
+}
+@media (max-width: 900px) {
+  .form {
+    width: 500px;
+  }
+}
+@media (max-width: 768px) {
+  .form {
+    width: 400px;
+  }
+}
+@media (max-width: 480px) {
+  .form {
+    width: 250px;
+  }
 }
