@@ -18,10 +18,7 @@ h1 {
   height: 350px;
 
 }
-.number:focus {
-  overflow: hidden;
-  border-color: none;
-}
+
 #form:hover {
   box-shadow: 3px 3px 42px -1px rgba(0,0,0,0.75);
 }
@@ -52,9 +49,7 @@ h1 {
   color: 	#428bca;
   background-color: white;
 }
-.display-text {
 
-}
 .type {
   color: steelblue;
   text-transform: uppercase;

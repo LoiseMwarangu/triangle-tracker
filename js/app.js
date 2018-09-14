@@ -26,3 +26,4 @@ function track(a,b,c) {
 function reset() {
   location.reload()
 }
+a
