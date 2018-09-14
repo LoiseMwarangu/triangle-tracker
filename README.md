@@ -23,7 +23,7 @@ To access this project on your local files, you can clone it using these steps
 | When the user doesn't enter a number| "the", 2,4   | That is NOT a number|
 
 ### Live Site
-View [live](https://marvinchomba.github.io/triangle-tracker"Triangle Tracker")
+View [live](https://marvinchomba.github.io/triangle-tracker/)
 
 ###Licence
-This project is under the [MIT]("licence")
+This project is under the [MIT]()
