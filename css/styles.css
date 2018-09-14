@@ -27,7 +27,7 @@ h1 {
 .input-field label {
   margin-right: 90px;
 }
-#button {
+.button {
   text-align: center;
   font-size: 15px;
   padding: 7px;
@@ -37,8 +37,7 @@ h1 {
   color: white;
   outline-style: none;
 }
-#button:hover {
+.button:hover {
   color: 	#428bca;
   background-color: white;
-}
-box-shadow: 3px 3px 42px -1px rgba(0,0,0,0.75);
+};

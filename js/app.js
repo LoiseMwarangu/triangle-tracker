@@ -18,3 +18,7 @@ function track(a,b,c) {
     display.textContent = "Not a triangle";
   }
 }
+
+function reset() {
+  location.reload()
+}
