@@ -14,7 +14,9 @@ function track(a,b,c) {
     } else {
       display.innerHTML = "<p class='display-text'>That is a <span class='type'>Scalene</span> Triangle"
     } 
-  }else {
+  }else if(isNaN(a) || isNaN(b) || isNaN(c)) {
+      display.innerHTML = "<p class='display-text'>That is <span class='not'>NOT</span> a number</p>";
+  } else {
     display.innerHTML = "<p class='display-text'>That is <span class='not'>NOT</span> a triangle"
   }
 }
