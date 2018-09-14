@@ -1,7 +1,9 @@
 function triangle() {
-  var a = parseInt(document.getElementById("num1").value);
-  var b = parseInt(document.getElementById("num2").value);
-  var c = parseInt(document.getElementById("num3").value);
+  var sides = [];
+  sides.push(parseInt(document.getElementById("num1").value));
+  sides.push(parseInt(document.getElementById("num2").value));
+  sides.push(parseInt(document.getElementById("num3").value));
+  var [a,b,c] = sides;
   var display = document.getElementById("display");
   track(a,b,c);
 }
