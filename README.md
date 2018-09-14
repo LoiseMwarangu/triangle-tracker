@@ -32,4 +32,4 @@ To access this project on your local files, you can clone it using these steps
 View [live](https://marvinchomba.github.io/triangle-tracker/)
 
 ### Licence
-This project is under the [MIT](https://github.com/marvinChomba/triangle-tracker/blob/master/LICENSE)
+This project is under the [MIT](https://github.com/marvinChomba/triangle-tracker/blob/master/LICENSE) licence.
