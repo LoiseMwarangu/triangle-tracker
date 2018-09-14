@@ -63,6 +63,7 @@ h1 {
   bottom: 0;
   left: 43%;
   right: auto;
+  font-weight: bold;
 }
 #footer i {
   color: red;
