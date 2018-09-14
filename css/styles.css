@@ -13,6 +13,10 @@ h1 {
   margin: 0 auto;
   padding: 1%;
   height: 320px;
+
+}
+#form:hover {
+  box-shadow: 3px 3px 42px -1px rgba(0,0,0,0.75);
 }
 
 .input-field {
@@ -37,3 +41,4 @@ h1 {
   color: 	#428bca;
   background-color: white;
 }
+box-shadow: 3px 3px 42px -1px rgba(0,0,0,0.75);
