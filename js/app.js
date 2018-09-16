@@ -36,7 +36,7 @@ function track(a,b,c) {
       display.innerHTML = "<p class='display-text'>That is <span class='not'>NOT</span> a number</p>";
   } 
   else {
-    display.innerHTML = "<p class='display-text'>That is <span class='not'>NOT</span> a triangle"
+    display.innerHTML = "<p class='display-text'>That is <span class='not'>NOT</span> a triangle</p><p>The sum of any two sides should be <span class='fill'>GREATER</span> than the third side</p>"
   }
 }
 
