@@ -10,12 +10,12 @@ function triangle() {
   var display = document.getElementById("display");
   if(a.length === 0 || b.length === 0 || c.length === 0 ) {
     //check whether the user has typed something
-    display.innerHTML = "<p>Please <span class='plea'>TYPE</span> something</p>" 
+    display.innerHTML = "<p>Please <span class='fill'>FILL</span> all the fields</p>" 
   } else {
     //convert the strings to numbers
-    a = parseInt(a);
-    b = parseInt(b);
-    c = parseInt(c);
+    a = parseFloat(a);
+    b = parseFloat(b);
+    c = parseFloat(c);
     //track the triangle
     track(a,b,c);
   }
