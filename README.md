@@ -22,9 +22,9 @@ To access this project on your local files, you can clone it using these steps
 ### Program Behaviour
 | Behaviour                         |  Input Example |  Output  Example                 |
 |----------                                          |:-------------: |------:                           |
-| User doesn't type anything                   | ,,          | Please type something  |
-| User fills only one field                     | 4,,          | Please type something  |
-| User fills two fields                    | 4,4,         | Please type something |
+| User doesn't type anything                   | ,,          | Please FILL all the fields  |
+| User fills only one field                     | 4,,          | Please FILL all the fields  |
+| User fills two fields                    | 4,4,         | Please FILL all the fields |
 | User enters three sides not equal             | 4,5,3          | That is a SCALENE triangle       |
 | User enters two equal sides                     | 4,4,5          | That is an ISOSCELES triangle  |
 | User enters three equal sides                         | 4,4,4          | That is an EQUILATERAL triangle    |
