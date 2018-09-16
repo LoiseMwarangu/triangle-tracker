@@ -16,10 +16,13 @@ To access this project on your local files, you can clone it using these steps
 
 ### Program Behaviour
 | Behaviour                         |  Input Example |  Output  Example                 |
-|----------                         |:-------------: |------:                           |
-| User enters three equal sides     | 4,4,4          | That is an EQUILATERAL triangle  |
-| User enters two equal sides       | 4,4,3          | That is an ISOSCELES triangle    |
-| User enters three sides not equal | 4,5,3          | That is a SCALENE triangle       |
+|----------                                          |:-------------: |------:                           |
+| User doesn't type anything                   | ,,          | Please type something  |
+| User fills only one field                     | 4,,          | Please type something  |
+| User fills two fields                    | 4,4,         | Please type something |
+| User enters three sides not equal             | 4,5,3          | That is a SCALENE triangle       |
+| User enters two equal sides                     | 4,4,5          | That is an ISOSCELES triangle  |
+| User enters three equal sides                         | 4,4,4          | That is an EQUILATERAL triangle    |
 | When the sum of any two sides > third side         | 7,7,5          | That is NOT a triangle |
 | When the user doesn't enter a number| "the", 2,4   | That is NOT a number|
 
@@ -27,4 +30,4 @@ To access this project on your local files, you can clone it using these steps
 View [live](https://marvinchomba.github.io/triangle-tracker/)
 
 ### Licence
-This project is under the [MIT](https://github.com/marvinChomba/triangle-tracker/blob/master/LICENSE)
+This project is under the [MIT](https://github.com/marvinChomba/triangle-tracker/blob/master/LICENSE) licence
